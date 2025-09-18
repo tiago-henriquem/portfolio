@@ -1,75 +1,21 @@
-# Nuxt Minimal Starter
+# 👋 Sobre mim
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Sou desenvolvedor Front-end com experiência sólida em **Vue.js** e **Nuxt 3**, aplicando **CSR** e explorando **SSR** conforme as necessidades do projeto.  
+Atualmente, atuo como **Líder Técnico de Front-end Web na Play55 Tecnologias**, conduzindo boas práticas de desenvolvimento, otimização de performance e escalabilidade.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🚀 Projetos de Destaque
 
-```bash
-# npm
-npm install
+- **Checkout da Play55** → utilizado por influenciadores como *Barone Prêmios, Pix do Milhão e Rayssa Buq*, viabilizando a comercialização legal de sorteios online.  
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## 🛠️ Tecnologias
 
-# bun
-bun install
-```
+- Vue.js · Nuxt 3 · Tailwind CSS  
+- CSR · SSR · APIs · Git/GitHub  
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+📫 Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/tiago-henrique-pereira-martins-62a8871b5)  
