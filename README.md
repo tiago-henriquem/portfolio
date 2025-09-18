@@ -13,8 +13,10 @@ Atualmente, atuo como **Líder Técnico de Front-end Web na Play55 Tecnologias**
 
 ## 🛠️ Tecnologias
 
-- Vue.js · Nuxt 3 · Tailwind CSS  
-- CSR · SSR · APIs · Git/GitHub  
+- Vue.js · Nuxt 3 · Tailwind CSS · Vuetify · Bulma
+- CSR · SSR
+- Git/GitHub · GitFlow · Firebase
+- API Rest · GraphQL (Arquitetura BFF)
 
 ---
 
