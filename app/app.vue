@@ -11,23 +11,49 @@
 					<h1
 						class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400"
 					>
-						Desenvolvedor Web Focado em Performance e Escalabilidade
+						Transformando ideias em sites otimizados, escaláveis e que geram
+						resultados
 					</h1>
-					<p class="mt-6 max-w-[700px] mx-auto text-foreground/80 md:text-xl">
-						Sólida experiência em
-						<span class="text-[#4FC08D] font-mono">Vue.js</span> e
-						<span class="text-[#00DC82] font-mono">Nuxt 3</span> (CSR/SSR), com
-						foco em otimização. Especializado em
+					<h5 class="mt-6">
+						Olá, visitante!
+						<img
+							src="https://images.emojiterra.com/google/noto-emoji/animated-emoji/1f44b.gif"
+							alt="Mão acenando"
+							class="inline-block w-6 h-6"
+						/>
+					</h5>
+					<p class="mt-2 max-w-[700px] mx-auto text-foreground/80 md:text-xl">
+						Sou o Tiago Martins, desenvolvedor Front-end Web com especialidade
+						em
+						<span class="text-[#4FC08D] font-mono">Vue.js</span>
+						<span> e </span>
+						<span class="text-[#00DC82] font-mono">Nuxt</span> (CSR/SSR) e atuo
+						em projetos de Checkout e landing pages white label otimizados.
+					</p>
+					<!-- <p class="mt-2 max-w-[700px] mx-auto text-foreground/80 md:text-xl">
+						<span class="mt-4">Sólida experiência com </span>
 						<span class="text-primary font-mono">TypeScript</span>,
 						<span class="text-primary font-mono">Tailwind</span>, APIs
 						<span class="text-primary font-mono">REST</span> e arquitetura
 						<span class="text-primary font-mono">BFF</span> para criar
 						aplicações modernas, rápidas e estáveis.
-					</p>
+					</p> -->
 					<div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
 						<NuxtLink to="#projetos">
-							<Button size="lg" class="w-full sm:w-auto">Ver Projetos</Button>
+							<Button
+								size="lg"
+								variant="outline"
+								class="w-full sm:w-auto border-[#0072b1]"
+								>LinkedIn</Button
+							>
 						</NuxtLink>
+						<Button
+							size="lg"
+							variant="outline"
+							class="w-full sm:w-auto border-white"
+						>
+							GitHub
+						</Button>
 						<Button size="lg" variant="outline" class="w-full sm:w-auto">
 							Baixar CV <ArrowDown class="ml-2 h-4 w-4" />
 						</Button>

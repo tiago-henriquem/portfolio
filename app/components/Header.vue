@@ -6,8 +6,10 @@
 			class="container mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4 md:px-6"
 		>
 			<NuxtLink to="#" class="flex items-center gap-2">
-				<Code class="h-6 w-6 text-primary" />
-				<span class="font-bold text-lg">CodeCraft</span>
+				<img
+					src="@/assets/images/logo.png"
+					alt="Logo escrito em roxo tiagoDevFront em camel case"
+				/>
 			</NuxtLink>
 			<nav class="hidden md:flex items-center gap-6 text-sm font-medium">
 				<NuxtLink
