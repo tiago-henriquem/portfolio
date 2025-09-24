@@ -5,6 +5,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['shadcn-nuxt'],
   css: ['~/assets/css/tailwind.css'],
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      ]
+    }
+  },
   vite: {
     plugins: [
       tailwindcss()

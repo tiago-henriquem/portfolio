@@ -44,7 +44,7 @@
 </template>
 
 <script setup lang="ts">
-import { Code, Menu, X } from "lucide-vue-next";
+import { Menu, X } from "lucide-vue-next";
 const Button = defineAsyncComponent(
 	() => import("@/components/ui/button/Button.vue")
 );
