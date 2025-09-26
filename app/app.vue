@@ -11,7 +11,7 @@
 					<h1
 						class="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl/none bg-clip-text text-transparent bg-gradient-to-r from-[#e46a69] to-[#4a0487]"
 					>
-						Transformando ideias em sites performáticos e que geram resultados
+						Transformando ideias em sites performáticos que geram resultados
 					</h1>
 					<h5 class="mt-6">
 						Olá, visitante!
@@ -46,7 +46,7 @@
 							<Button
 								size="lg"
 								variant="outline"
-								class="w-full sm:w-auto border-[#0072b1]"
+								class="w-full sm:w-auto border-[#0072b1] cursor-pointer"
 							>
 								<Linkedin color="#0072b1" />
 								LinkedIn
@@ -56,7 +56,7 @@
 							<Button
 								size="lg"
 								variant="outline"
-								class="w-full sm:w-auto border-[#15191E]"
+								class="w-full sm:w-auto border-[#15191E] cursor-pointer"
 							>
 								<Github color="#15191E" />
 								GitHub
@@ -66,7 +66,7 @@
 							<Button
 								size="lg"
 								variant="outline"
-								class="w-full sm:w-auto border-gray-400"
+								class="w-full sm:w-auto border-gray-400 cursor-pointer"
 							>
 								<Download color="var(--color-gray-400)" />
 								Baixar CV
