@@ -112,6 +112,25 @@
 	--color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme {
+	--animate-gradientez: gradient 6s ease infinite;
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+}
+
+.bgSize200 {
+	background-size: 200% 200%;
+}
+
 :root {
 	--card: oklch(1 0 0);
 	--card-foreground: oklch(0.145 0 0);

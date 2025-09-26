@@ -4,12 +4,12 @@
 
 		<main class="pt-16">
 			<section
-				class="relative flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] text-center px-4 py-20 overflow-hidden"
+				class="relative min-h-[calc(100vh-4rem)] text-center px-4 py-16 overflow-hidden"
 			>
 				<GridPattern />
 				<div class="relative z-10 max-w-4xl mx-auto">
 					<h1
-						class="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl/none bg-clip-text text-transparent bg-gradient-to-r from-[#e46a69] to-[#4a0487]"
+						class="bgSize200 animate-gradientez text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl/none bg-clip-text text-transparent bg-gradient-to-r from-[#e46a69] to-[#4a0487]"
 					>
 						Transformando ideias em sites performáticos que geram resultados
 					</h1>
