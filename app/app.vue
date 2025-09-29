@@ -1,3 +1,89 @@
+<script setup lang="ts">
+import type { Project } from "@/components/ProjectCard/types";
+const Button = defineAsyncComponent(() => import("@/components/ui/button/Button.vue"));
+import { Linkedin, Github, Download } from "lucide-vue-next";
+
+const projects: Project[] = [
+	{
+		title: "Checkout da Play55",
+		description: "Criador e mantenedor do checkout white label da Play55, a maior plataforma de sorteios legalizados no Brasil.",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto1",
+			redirectType: "_blank"
+		}
+	},
+	{
+		title: "Projeto Exemplo 2",
+		description: "Descrição do Projeto Exemplo 2",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto2"
+		}
+	},
+	{
+		title: "Projeto Exemplo 3",
+		description: "Descrição do Projeto Exemplo 3",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto3",
+			redirectType: "_self"
+		}
+	},
+	{
+		title: "Projeto Exemplo 2",
+		description: "Descrição do Projeto Exemplo 2",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto2"
+		}
+	},
+	{
+		title: "Projeto Exemplo 3",
+		description: "Descrição do Projeto Exemplo 3",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto3",
+			redirectType: "_self"
+		}
+	},
+	{
+		title: "Projeto Exemplo 2",
+		description: "Descrição do Projeto Exemplo 2",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto2"
+		}
+	},
+	{
+		title: "Projeto Exemplo 3",
+		description: "Descrição do Projeto Exemplo 3",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto3",
+			redirectType: "_self"
+		}
+	},
+	{
+		title: "Projeto Exemplo 2",
+		description: "Descrição do Projeto Exemplo 2",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto2"
+		}
+	},
+	{
+		title: "Projeto Exemplo 3",
+		description: "Descrição do Projeto Exemplo 3",
+		projectCover: "https://via.placeholder.com/150",
+		projectData: {
+			url: "https://example.com/projeto3",
+			redirectType: "_self"
+		}
+	},
+];
+</script>
+
 <template>
 	<div class="bg-background text-foreground">
 		<Header />
@@ -78,17 +164,16 @@
 
 			<LazyTechStack />
 
-			<section id="projetos" class="py-20 md:py-32 bg-secondary">
-				<div class="container mx-auto max-w-screen-xl px-4 md:px-6">
+			<section id="projetos" class="container mx-auto max-w-screen-xl px-4 md:px-6 py-20 md:py-32 bg-secondary">
 					<h2
 						class="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-12"
 					>
 						Projetos em Destaque
 					</h2>
-					<div class="text-center text-foreground/80">
+					<div class="text-center text-foreground/80 flex flex-col items-center gap-5">
 						<p>(Em breve: Projetos do GitHub aparecerão aqui)</p>
+						<LazyProjectsCarousel :projects-list="projects" />
 					</div>
-				</div>
 			</section>
 
 			<section id="sobre" class="py-20 md:py-32">
@@ -132,8 +217,3 @@
 		<LazyFooter />
 	</div>
 </template>
-
-<script setup lang="ts">
-import Button from "@/components/ui/button/Button.vue";
-import { Linkedin, Github, Download } from "lucide-vue-next";
-</script>
